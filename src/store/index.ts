@@ -2,6 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import createSagaMiddleware from './sagaSetup';
 import repositoryReducer from './slices/repositorySagaSlice';
 import userReducer from './slices/userSagaSlice';
+import profileReducer from './slices/profileSagaSlice';
 import rootSaga from './sagas';
 
 const sagaMiddleware = createSagaMiddleware();
@@ -10,6 +11,7 @@ export const store = configureStore({
   reducer: {
     repository: repositoryReducer,
     user: userReducer,
+    profile: profileReducer,
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
