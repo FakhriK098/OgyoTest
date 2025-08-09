@@ -14,9 +14,10 @@ import {
 import { useAppDispatch, useAppSelector } from 'src/hooks/redux';
 import { DetailNavigationParams } from 'src/navigation/types';
 import { fetchUserRequest } from 'src/store/slices/userSagaSlice';
-import Label from './components/Label';
+import Label from '../../components/Label';
 import { getFullName } from 'src/utils/strings';
 import { formatBytes } from 'src/utils/numbers';
+import Avatar from '@components/Avatar';
 const DetailScreen = () => {
   const { goBack } = useNavigation();
   const { params } = useRoute<DetailNavigationParams>();
@@ -71,12 +72,7 @@ const DetailScreen = () => {
       <ScrollView>
         <View style={styles.mainContainer}>
           <View style={styles.mainContainerAvatar}>
-            <View style={styles.containerAvatar}>
-              <Image
-                source={{ uri: user.owner.avatar_url }}
-                style={styles.avatar}
-              />
-            </View>
+            <Avatar url={user.owner.avatar_url} width={80} height={80} />
           </View>
           <View style={styles.contentContainer}>
             <Text style={styles.title}>{user.name}</Text>
@@ -139,26 +135,9 @@ const styles = StyleSheet.create({
     width: 20,
     height: 20,
   },
-  avatar: {
-    width: 80,
-    height: 80,
-    borderRadius: 50,
-  },
   mainContainerAvatar: {
     alignItems: 'center',
     zIndex: 999,
-  },
-  containerAvatar: {
-    elevation: 8,
-    shadowColor: colors.black,
-    shadowOffset: {
-      width: 0,
-      height: 4,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 4.65,
-    backgroundColor: colors.white,
-    borderRadius: 50,
   },
   mainContainer: {
     justifyContent: 'center',
