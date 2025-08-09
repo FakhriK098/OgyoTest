@@ -1,22 +1,14 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
 import { Provider } from 'react-redux';
 import { store } from './store';
+import RootNavigator from './navigation/RootNavigator';
 
 function App(): React.JSX.Element {
   return (
     <Provider store={store}>
-      <View style={styles.container}>
-        <Text>Hello World</Text>
-      </View>
+      <RootNavigator />
     </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;
