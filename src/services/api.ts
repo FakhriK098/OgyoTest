@@ -1,25 +1,16 @@
-import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
+import axios from 'axios';
 
-class ApiService {
-  private axiosInstance: AxiosInstance;
+const baseURL = 'https://api.github.com';
 
-  constructor() {
-    this.axiosInstance = axios.create({
-      baseURL: 'https://api.github.com',
-      timeout: 10000,
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
-  }
+const instance = axios.create({
+  baseURL,
+  timeout: 30000,
+});
 
-  public async get<T>(url: string, config?: AxiosRequestConfig): Promise<T> {
-    const response: AxiosResponse<T> = await this.axiosInstance.get(
-      url,
-      config,
-    );
-    return response.data;
-  }
-}
+const defaultHeaders = {
+  'Content-Type': 'application/json',
+};
 
-export default new ApiService();
+instance.defaults.headers.common = defaultHeaders;
+
+export default instance;
