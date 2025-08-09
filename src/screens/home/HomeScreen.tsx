@@ -8,7 +8,6 @@ import {
   ActivityIndicator,
   RefreshControl,
 } from 'react-native';
-import { colors } from '../../themes/colors';
 import { useAppDispatch, useAppSelector } from '../../hooks/redux';
 import {
   fetchRepositoriesRequest,
@@ -18,12 +17,13 @@ import {
 } from '../../store/slices/repositorySagaSlice';
 import { IRepository } from '../../types/repository';
 import CardRepository from './components/CardRepository';
-import ItemSeparator from '../../components/ItemSeparator';
 import FloatingActionButton from './components/FloatingActionButton';
 import SearchBar from './components/SearchBar';
 import { TSortOrder } from '../../types/home';
 import SortFilterModal from './components/SortFilterModal';
 import { ASC } from '../../utils/constants';
+import ItemSeparator from '@components/ItemSeparator';
+import { colors } from 'src/themes/colors';
 
 const HomeScreen = () => {
   const dispatch = useAppDispatch();
