@@ -1,8 +1,9 @@
-import { NavigatorScreenParams } from '@react-navigation/native';
+import { NavigatorScreenParams, RouteProp } from '@react-navigation/native';
+import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
 export type RootStackParamList = {
   MainTabs: NavigatorScreenParams<MainTabParamList>;
-  Detail: { id: string; title: string; data?: any };
+  Detail: { id: string };
 };
 
 export type HomeStackParamList = {
@@ -13,3 +14,6 @@ export type MainTabParamList = {
   Home: undefined;
   User: undefined;
 };
+
+export type RootNavigationProps = NativeStackNavigationProp<RootStackParamList>;
+export type DetailNavigationParams = RouteProp<RootStackParamList, 'Detail'>;
