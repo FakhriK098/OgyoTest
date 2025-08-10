@@ -33,7 +33,7 @@ const DetailScreen = () => {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
-          <Pressable onPress={() => goBack()}>
+          <Pressable testID="back-button" onPress={() => goBack()}>
             <Image source={images.back} style={styles.iconBack} />
           </Pressable>
           <Text style={styles.headerTitle}>Details</Text>
@@ -49,7 +49,7 @@ const DetailScreen = () => {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
-          <Pressable onPress={() => goBack()}>
+          <Pressable testID="back-button" onPress={() => goBack()}>
             <Image source={images.back} style={styles.iconBack} />
           </Pressable>
           <Text style={styles.headerTitle}>Details</Text>
@@ -64,7 +64,7 @@ const DetailScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Pressable onPress={() => goBack()}>
+        <Pressable testID="back-button" onPress={() => goBack()}>
           <Image source={images.back} style={styles.iconBack} />
         </Pressable>
         <Text style={styles.headerTitle}>Details</Text>

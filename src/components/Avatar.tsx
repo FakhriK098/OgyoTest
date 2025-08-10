@@ -6,7 +6,7 @@ import { IAvatarProps } from 'src/types/profile';
 const Avatar = ({ url, width, height }: IAvatarProps) => {
   return (
     <View style={styles.containerAvatar}>
-      <Image source={{ uri: url }} style={[styles.avatar, { width, height }]} />
+      <Image testID="avatar-image" source={{ uri: url }} style={[styles.avatar, { width, height }]} />
     </View>
   );
 };

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label should match snapshot 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "marginBottom": 8,
+      "width": "90%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+        "fontWeight": "600",
+        "marginRight": 4,
+      }
+    }
+  >
+    Test Label:
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+        "fontWeight": "400",
+        "marginRight": 4,
+      }
+    }
+  >
+    Test Value
+  </Text>
+</View>
+`;

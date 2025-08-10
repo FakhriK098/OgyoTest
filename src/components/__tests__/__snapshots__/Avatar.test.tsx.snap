@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should match snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 50,
+      "elevation": 8,
+      "shadowColor": "#000000",
+      "shadowOffset": {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 4.65,
+    }
+  }
+>
+  <Image
+    source={
+      {
+        "uri": "https://example.com/avatar.jpg",
+      }
+    }
+    style={
+      [
+        {
+          "borderRadius": 50,
+        },
+        {
+          "height": 100,
+          "width": 100,
+        },
+      ]
+    }
+    testID="avatar-image"
+  />
+</View>
+`;

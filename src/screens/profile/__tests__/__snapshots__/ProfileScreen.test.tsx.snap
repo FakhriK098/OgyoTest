@@ -1,0 +1,1005 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileScreen should match snapshot in loading state 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#EEEBE3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      color="#161B28"
+      size="large"
+      testID="activity-indicator"
+    />
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`ProfileScreen should match snapshot with local avatar 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#EEEBE3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "justifyContent": "center",
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="camera-button"
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 50,
+              "elevation": 8,
+              "shadowColor": "#000000",
+              "shadowOffset": {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 4.65,
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "file://local-avatar.jpg",
+              }
+            }
+            style={
+              [
+                {
+                  "borderRadius": 50,
+                },
+                {
+                  "height": 100,
+                  "width": 100,
+                },
+              ]
+            }
+            testID="avatar-image"
+          />
+        </View>
+        <View
+          style={
+            {
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "testUri": "../../../src/assets/camera.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 8,
+          "elevation": 8,
+          "marginHorizontal": 8,
+          "marginTop": 16,
+          "paddingBottom": 8,
+          "paddingHorizontal": 16,
+          "paddingTop": 16,
+          "shadowColor": "#000000",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.3,
+          "shadowRadius": 4.65,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 24,
+            "fontWeight": "600",
+            "marginBottom": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        testuser
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Followers:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          100
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Following:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          50
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Repositories:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          10
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`ProfileScreen should match snapshot with modal open 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#EEEBE3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "justifyContent": "center",
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="camera-button"
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 50,
+              "elevation": 8,
+              "shadowColor": "#000000",
+              "shadowOffset": {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 4.65,
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://example.com/avatar.jpg",
+              }
+            }
+            style={
+              [
+                {
+                  "borderRadius": 50,
+                },
+                {
+                  "height": 100,
+                  "width": 100,
+                },
+              ]
+            }
+            testID="avatar-image"
+          />
+        </View>
+        <View
+          style={
+            {
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "testUri": "../../../src/assets/camera.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 8,
+          "elevation": 8,
+          "marginHorizontal": 8,
+          "marginTop": 16,
+          "paddingBottom": 8,
+          "paddingHorizontal": 16,
+          "paddingTop": 16,
+          "shadowColor": "#000000",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.3,
+          "shadowRadius": 4.65,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 24,
+            "fontWeight": "600",
+            "marginBottom": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        testuser
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Followers:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          100
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Following:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          50
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Repositories:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          10
+        </Text>
+      </View>
+    </View>
+  </View>
+  <Modal
+    animationType="fade"
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 12,
+            "elevation": 5,
+            "maxWidth": 320,
+            "padding": 20,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 3.84,
+            "width": "80%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#000000",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "marginBottom": 20,
+              "textAlign": "center",
+            }
+          }
+        >
+          Choose Photo
+        </Text>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#EEEBE3",
+              "borderRadius": 8,
+              "marginBottom": 10,
+              "opacity": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#161B28",
+                "fontSize": 16,
+              }
+            }
+          >
+            Take Photo
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#EEEBE3",
+              "borderRadius": 8,
+              "marginBottom": 10,
+              "opacity": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#161B28",
+                "fontSize": 16,
+              }
+            }
+          >
+            Choose from Gallery
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#DEDEDE",
+              "borderRadius": 8,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "opacity": 1,
+              "paddingHorizontal": 16,
+              "paddingVertical": 14,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#161B28",
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Cancel
+          </Text>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</RCTSafeAreaView>
+`;
+
+exports[`ProfileScreen should match snapshot with profile data 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#EEEBE3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "justifyContent": "center",
+        "marginTop": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="camera-button"
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 50,
+              "elevation": 8,
+              "shadowColor": "#000000",
+              "shadowOffset": {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 4.65,
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "uri": "https://example.com/avatar.jpg",
+              }
+            }
+            style={
+              [
+                {
+                  "borderRadius": 50,
+                },
+                {
+                  "height": 100,
+                  "width": 100,
+                },
+              ]
+            }
+            testID="avatar-image"
+          />
+        </View>
+        <View
+          style={
+            {
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <Image
+            source={
+              {
+                "testUri": "../../../src/assets/camera.png",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 8,
+          "elevation": 8,
+          "marginHorizontal": 8,
+          "marginTop": 16,
+          "paddingBottom": 8,
+          "paddingHorizontal": 16,
+          "paddingTop": 16,
+          "shadowColor": "#000000",
+          "shadowOffset": {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.3,
+          "shadowRadius": 4.65,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 24,
+            "fontWeight": "600",
+            "marginBottom": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        testuser
+      </Text>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Followers:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          100
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Following:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          50
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "600",
+              "marginRight": 4,
+            }
+          }
+        >
+          Repositories:
+        </Text>
+        <Text
+          style={
+            {
+              "fontSize": 14,
+              "fontWeight": "400",
+              "marginRight": 4,
+            }
+          }
+        >
+          10
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

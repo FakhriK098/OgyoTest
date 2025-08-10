@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should match snapshot with custom placeholder 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "zIndex": 1000,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "borderBottomColor": "#DEDEDE",
+        "borderBottomWidth": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#161B28",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 40,
+          "paddingHorizontal": 12,
+        }
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Search GitHub repositories..."
+        returnKeyType="search"
+        style={
+          {
+            "color": "#000000",
+            "flex": 1,
+            "fontSize": 16,
+            "paddingVertical": 0,
+          }
+        }
+        value=""
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SearchBar should match snapshot with default props 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "zIndex": 1000,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "borderBottomColor": "#DEDEDE",
+        "borderBottomWidth": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#161B28",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 40,
+          "paddingHorizontal": 12,
+        }
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Search repository..."
+        returnKeyType="search"
+        style={
+          {
+            "color": "#000000",
+            "flex": 1,
+            "fontSize": 16,
+            "paddingVertical": 0,
+          }
+        }
+        value=""
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SearchBar should match snapshot with loading state 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "zIndex": 1000,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "borderBottomColor": "#DEDEDE",
+        "borderBottomWidth": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#161B28",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 40,
+          "paddingHorizontal": 12,
+        }
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Search repository..."
+        returnKeyType="search"
+        style={
+          {
+            "color": "#000000",
+            "flex": 1,
+            "fontSize": 16,
+            "paddingVertical": 0,
+          }
+        }
+        value=""
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`SearchBar should match snapshot with suggestions 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "zIndex": 1000,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "borderBottomColor": "#DEDEDE",
+        "borderBottomWidth": 1,
+        "paddingHorizontal": 8,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#161B28",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 40,
+          "paddingHorizontal": 12,
+        }
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoCorrect={false}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholder="Search repository..."
+        returnKeyType="search"
+        style={
+          {
+            "color": "#000000",
+            "flex": 1,
+            "fontSize": 16,
+            "paddingVertical": 0,
+          }
+        }
+        value=""
+      />
+    </View>
+  </View>
+</View>
+`;
