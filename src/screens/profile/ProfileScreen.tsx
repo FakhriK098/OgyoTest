@@ -126,7 +126,7 @@ const ProfileScreen = () => {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.emptyContainer}>
-          <ActivityIndicator size="large" color={colors.shade800} />
+          <ActivityIndicator testID="activity-indicator" size="large" color={colors.shade800} />
         </View>
       </SafeAreaView>
     );
@@ -136,7 +136,7 @@ const ProfileScreen = () => {
     <SafeAreaView style={styles.container}>
       <View style={styles.mainContainer}>
         <View style={styles.mainContainerAvatar}>
-          <Pressable onPress={handlePressCamera}>
+          <Pressable testID="camera-button" onPress={handlePressCamera}>
             <Avatar
               url={localAvatarUri || profile.avatar_url}
               width={100}

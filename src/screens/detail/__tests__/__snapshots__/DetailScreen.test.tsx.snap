@@ -1,0 +1,759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailScreen should match snapshot in empty state 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#EEEBE3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderBottomColor": "#DEDEDE",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="back-button"
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/arrow-back.png",
+          }
+        }
+        style={
+          {
+            "height": 20,
+            "width": 20,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "fontSize": 20,
+          "fontWeight": "600",
+          "marginLeft": 16,
+        }
+      }
+    >
+      Details
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#161B28",
+          "fontSize": 20,
+          "fontWeight": "600",
+          "marginBottom": 8,
+        }
+      }
+    >
+      No Data Found
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`DetailScreen should match snapshot in loading state 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#EEEBE3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderBottomColor": "#DEDEDE",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="back-button"
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/arrow-back.png",
+          }
+        }
+        style={
+          {
+            "height": 20,
+            "width": 20,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "fontSize": 20,
+          "fontWeight": "600",
+          "marginLeft": 16,
+        }
+      }
+    >
+      Details
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      color="#161B28"
+      size="large"
+    />
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`DetailScreen should match snapshot with user details 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#EEEBE3",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderBottomColor": "#DEDEDE",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "padding": 15,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      testID="back-button"
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/arrow-back.png",
+          }
+        }
+        style={
+          {
+            "height": 20,
+            "width": 20,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "fontSize": 20,
+          "fontWeight": "600",
+          "marginLeft": 16,
+        }
+      }
+    >
+      Details
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "justifyContent": "center",
+            "marginTop": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "zIndex": 999,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 50,
+                "elevation": 8,
+                "shadowColor": "#000000",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.3,
+                "shadowRadius": 4.65,
+              }
+            }
+          >
+            <Image
+              source={
+                {
+                  "uri": "https://example.com/avatar.jpg",
+                }
+              }
+              style={
+                [
+                  {
+                    "borderRadius": 50,
+                  },
+                  {
+                    "height": 80,
+                    "width": 80,
+                  },
+                ]
+              }
+              testID="avatar-image"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 8,
+              "elevation": 8,
+              "marginHorizontal": 8,
+              "marginTop": -40,
+              "paddingBottom": 8,
+              "paddingHorizontal": 16,
+              "paddingTop": 50,
+              "shadowColor": "#000000",
+              "shadowOffset": {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 4.65,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 24,
+                "fontWeight": "600",
+                "marginBottom": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            React
+          </Text>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Owner:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              facebook react
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Type:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Organization
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Size:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              184.8 KB
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Language:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              JavaScript
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              License:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              MIT License
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Topic:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              react, javascript, library
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Stargazers Count:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              200000
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Watchers Count:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              6500
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Forks Count:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              40000
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Open Issues Count:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              1200
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Network Count:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              40000
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "marginBottom": 8,
+                "width": "90%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "marginRight": 4,
+                }
+              }
+            >
+              Subscribers Count:
+            </Text>
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "marginRight": 4,
+                }
+              }
+            >
+              6500
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

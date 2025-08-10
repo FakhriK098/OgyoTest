@@ -1,0 +1,103 @@
+import { IRepository } from 'src/types/repository';
+
+export const dummyRepositories: IRepository[] = [
+  {
+    id: 1,
+    node_id: 'MDEwOlJlcG9zaXRvcnkx',
+    name: 'hello-world',
+    full_name: 'octocat/hello-world',
+    private: false,
+    owner: {
+      login: 'octocat',
+      id: 1,
+      node_id: 'MDQ6VXNlcjE=',
+      avatar_url: 'https://avatars.githubusercontent.com/u/1?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/octocat',
+      html_url: 'https://github.com/octocat',
+      followers_url: 'https://api.github.com/users/octocat/followers',
+      following_url:
+        'https://api.github.com/users/octocat/following{/other_user}',
+      gists_url: 'https://api.github.com/users/octocat/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/octocat/starred{/owner}{/repo}',
+      subscriptions_url: 'https://api.github.com/users/octocat/subscriptions',
+      organizations_url: 'https://api.github.com/users/octocat/orgs',
+      repos_url: 'https://api.github.com/users/octocat/repos',
+      events_url: 'https://api.github.com/users/octocat/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/octocat/received_events',
+      type: 'User',
+      user_view_type: 'public',
+      site_admin: false,
+    },
+    html_url: 'https://github.com/octocat/hello-world',
+    description: 'A simple hello world repository',
+  },
+  {
+    id: 2,
+    node_id: 'MDEwOlJlcG9zaXRvcnky',
+    name: 'awesome-project',
+    full_name: 'johndoe/awesome-project',
+    private: false,
+    owner: {
+      login: 'johndoe',
+      id: 2,
+      node_id: 'MDQ6VXNlcjI=',
+      avatar_url: 'https://avatars.githubusercontent.com/u/2?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/johndoe',
+      html_url: 'https://github.com/johndoe',
+      followers_url: 'https://api.github.com/users/johndoe/followers',
+      following_url:
+        'https://api.github.com/users/johndoe/following{/other_user}',
+      gists_url: 'https://api.github.com/users/johndoe/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/johndoe/starred{/owner}{/repo}',
+      subscriptions_url: 'https://api.github.com/users/johndoe/subscriptions',
+      organizations_url: 'https://api.github.com/users/johndoe/orgs',
+      repos_url: 'https://api.github.com/users/johndoe/repos',
+      events_url: 'https://api.github.com/users/johndoe/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/johndoe/received_events',
+      type: 'User',
+      user_view_type: 'public',
+      site_admin: false,
+    },
+    html_url: 'https://github.com/johndoe/awesome-project',
+    description: 'An awesome project to test API responses',
+  },
+  {
+    id: 3,
+    node_id: 'MDEwOlJlcG9zaXRvcnkz',
+    name: 'cool-library',
+    full_name: 'janedoe/cool-library',
+    private: true,
+    owner: {
+      login: 'janedoe',
+      id: 3,
+      node_id: 'MDQ6VXNlcjM=',
+      avatar_url: 'https://avatars.githubusercontent.com/u/3?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/janedoe',
+      html_url: 'https://github.com/janedoe',
+      followers_url: 'https://api.github.com/users/janedoe/followers',
+      following_url:
+        'https://api.github.com/users/janedoe/following{/other_user}',
+      gists_url: 'https://api.github.com/users/janedoe/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/janedoe/starred{/owner}{/repo}',
+      subscriptions_url: 'https://api.github.com/users/janedoe/subscriptions',
+      organizations_url: 'https://api.github.com/users/janedoe/orgs',
+      repos_url: 'https://api.github.com/users/janedoe/repos',
+      events_url: 'https://api.github.com/users/janedoe/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/janedoe/received_events',
+      type: 'User',
+      user_view_type: 'public',
+      site_admin: false,
+    },
+    html_url: 'https://github.com/janedoe/cool-library',
+    description: 'A private library for internal usage',
+  },
+];
