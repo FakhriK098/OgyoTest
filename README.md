@@ -32,6 +32,23 @@ A React Native application for browsing GitHub repositories with search, sort, a
   - Selecting from gallery
 - **User Statistics**: View followers, following, and repository counts
 
+## 🏠 Home page
+<img width="300" height="800" alt="Simulator Screenshot - IPhone Seva 13 - 2025-08-10 at 09 33 25" src="https://github.com/user-attachments/assets/00bfd69d-0cdb-4c14-9cad-a99ed811c276" />
+<img width="300" height="800" alt="Simulator Screenshot - IPhone Seva 13 - 2025-08-10 at 09 33 38" src="https://github.com/user-attachments/assets/84ac231f-a839-415e-884c-84575f1aed8b" />
+<img width="300" height="800" alt="Simulator Screenshot - IPhone Seva 13 - 2025-08-10 at 09 33 47" src="https://github.com/user-attachments/assets/907303e9-21f6-4710-883e-d9179f0667cf" />
+<img width="300" height="800" alt="Simulator Screenshot - IPhone Seva 13 - 2025-08-10 at 09 33 54" src="https://github.com/user-attachments/assets/433ab067-fead-4786-be2d-a67907ed3545" />
+
+## 📋 Detail Repository
+<img width="300" height="800" alt="Simulator Screenshot - IPhone Seva 13 - 2025-08-10 at 09 34 09" src="https://github.com/user-attachments/assets/a96f7b36-e31e-4142-996a-90c5d9621df2" />
+
+## 👤 Profile
+<img width="300" height="800" alt="Simulator Screenshot - IPhone Seva 13 - 2025-08-10 at 09 34 26" src="https://github.com/user-attachments/assets/8ea38a70-7a89-4d3c-83f9-648a1ca4a064" />
+<img width="300" height="800" alt="Simulator Screenshot - IPhone Seva 13 - 2025-08-10 at 09 34 33" src="https://github.com/user-attachments/assets/073d5891-6036-4b0d-a000-dc8cd253848d" />
+
+## Coverage Unit Test
+<img width="1800" height="1004" alt="Screenshot 2025-08-10 at 09 28 09" src="https://github.com/user-attachments/assets/3190423f-2742-450d-9e89-0bad9e464322" />
+
+
 ## Tech Stack
 
 - **React Native**: Cross-platform mobile development
